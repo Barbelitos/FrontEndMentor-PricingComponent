@@ -133,7 +133,7 @@ input:checked + .toggle__slider::before {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-#professional__card {
+.professional__card {
   background: var(--linear-gradient);
   color: var(--very-light-grayish-blue);
 }
@@ -142,7 +142,7 @@ input:checked + .toggle__slider::before {
   color: var(--grayish-blue);
 }
 
-#professional__card .card__title {
+.professional__card .card__title {
   color: var(--very-light-grayish-blue);
 }
 
@@ -153,7 +153,7 @@ input:checked + .toggle__slider::before {
   color: var(--dark-grayish-blue);
 }
 
-#professional__card .card__price {
+.professional__card .card__price {
   color: var(--very-light-grayish-blue);
 }
 
@@ -176,7 +176,7 @@ hr {
   color: var(--grayish-blue);
 }
 
-#professional__card .card__text {
+.professional__card .card__text {
   color: var(--very-light-grayish-blue);
 }
 
@@ -194,7 +194,7 @@ hr {
   font-size: 12px;
 }
 
-#professional__card .card__button {
+.professional__card .card__button {
   background: var(--very-light-grayish-blue);
   color: hsl(228, 45%, 44%);
 }
@@ -229,7 +229,7 @@ hr {
     margin: 70px auto;
   }
 
-  #professional__card {
+  .professional__card {
     transform: scale(1.1);
   }
 }
