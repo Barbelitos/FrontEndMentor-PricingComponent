@@ -186,6 +186,7 @@ hr {
   background: var(--linear-gradient);
   border: none;
   border-radius: 8px;
+  cursor: pointer;
   color: var(--very-light-grayish-blue);
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
@@ -194,9 +195,21 @@ hr {
   font-size: 12px;
 }
 
+.card__button:hover {
+  background: none;
+  color: hsl(228, 45%, 44%);
+  border: 2px solid hsl(228, 45%, 44%);
+}
+
 .professional__card .card__button {
   background: var(--very-light-grayish-blue);
   color: hsl(228, 45%, 44%);
+}
+
+.professional__card .card__button:hover {
+  background: none;
+  border-color: white;
+  color: white;
 }
 
 .attribution {
