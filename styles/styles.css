@@ -125,7 +125,6 @@ input:checked + .toggle__slider::before {
 
 .pricing__card {
   width: 85%;
-  /* height: 300px; */
   margin: auto;
   padding: 30px;
   border-radius: 12px;
