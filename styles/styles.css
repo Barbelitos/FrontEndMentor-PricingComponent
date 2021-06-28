@@ -108,7 +108,19 @@ input:checked + .toggle__slider::before {
   display: flex;
   flex-direction: column;
   margin: 50px auto;
-  gap: 20px;
+  gap: 30px;
+}
+
+.annually__container {
+  display: none;
+}
+
+.show__container {
+  display: flex;
+}
+
+.remove__container {
+  display: none;
 }
 
 .pricing__card {
